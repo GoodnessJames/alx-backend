@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" Create LFUCache class that inherits from BaseCaching """
+""" LFUCache Caching """
 BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LFUCache(BaseCaching):
-    """ Define LFUCache """
+    """LFUCache Class """
 
     def __init__(self):
         """ Initialize LFUCache """

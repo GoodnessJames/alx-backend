@@ -23,7 +23,7 @@ def get_locale():
 
 
 @app.route('/', strict_slashes=False)
-def index():
+def index() -> str:
     """Return 3-index.html"""
     return render_template('3-index.html')
 
